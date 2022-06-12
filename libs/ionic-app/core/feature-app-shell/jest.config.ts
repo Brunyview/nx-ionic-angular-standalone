@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'ionic-app-core-feature-shell',
+  displayName: 'ionic-app-core-feature-app-shell',
   preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -9,7 +9,8 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../../../coverage/libs/ionic-app/core/feature-shell',
+  coverageDirectory:
+    '../../../../coverage/libs/ionic-app/core/feature-app-shell',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

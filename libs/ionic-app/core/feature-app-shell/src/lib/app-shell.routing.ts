@@ -5,6 +5,7 @@ export const routes: Route[] = [
   {
     path: '',
     component: TabsPage,
-    loadChildren: () => import('@my-org/ionic-app/core/feature-tabs').then((m) => m.routes),
+    loadChildren: () =>
+      import('@my-org/ionic-app/core/feature-tabs').then((m) => m.routes),
   },
 ];

@@ -10,9 +10,8 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
       <ion-router-outlet></ion-router-outlet>
     </ion-app>
   `,
+  // Import modules and providers from the feature-app module
   imports: [IonicModule, RouterModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
 })
-export class AppComponent {
-  constructor() {}
-}
+export class AppShellComponent {}

@@ -3,14 +3,14 @@ import { enableProdMode, importProvidersFrom } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
+import { AppShellComponent } from '@my-org/ionic-app-core-feature-app-shell';
 import { environment } from '@my-org/ionic-app/core/config-environment';
-import { AppComponent } from './app/app.component';
 
 if (environment.production) {
   enableProdMode();
 }
 
-bootstrapApplication(AppComponent, {
+bootstrapApplication(AppShellComponent, {
   providers: [
     importProvidersFrom(
       IonicModule.forRoot(),

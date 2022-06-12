@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@my-org/ionic-app-core-feature-app-shell": [
+        "libs/ionic-app/core/feature-app-shell/src/index.ts"
+      ],
       "@my-org/ionic-app/core/asset-i18n": [
         "libs/ionic-app/core/asset-i18n/src/index.ts"
       ],
