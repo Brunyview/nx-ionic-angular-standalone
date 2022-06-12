@@ -51,7 +51,7 @@
               }
             ],
             "styles": [
-              "apps/ionic-app/src/styles.scss",
+              "apps/ionic-app/src/global.scss",
               "libs/ionic-app/core/layout-styles/src/index.scss",
               "libs/ionic-app/shared/asset-fonts/src/index.scss",
               "libs/ionic-app/core/layout-theme/src/index.scss"
