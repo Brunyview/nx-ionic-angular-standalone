@@ -19,6 +19,8 @@
     "@angular/platform-browser-dynamic": "~14.0.0",
     "@angular/router": "~14.0.0",
     "@ionic/angular": "6.1.7-dev.11654279011.1b971e3e",
+    "@ngx-translate/core": "^14.0.0",
+    "@ngx-translate/http-loader": "^7.0.0",
     "@nrwl/angular": "^14.2.4",
     "@nxtend/capacitor": "^13.0.0",
     "ionicons": "^6.0.2",

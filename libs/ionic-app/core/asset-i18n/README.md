@@ -1,6 +1,6 @@
-# where-app/core/asset-i18n
+# ionic-app/core/asset-i18n
 
-Contains the static translations used within all where-app bundles. (ie. the where-apps base translations)
+Contains the static translations used within all ionic-app bundles. (ie. the ionic-apps base translations)
 
 * This approach doesn't allow translations to be contained within the
 

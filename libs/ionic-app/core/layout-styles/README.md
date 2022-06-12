@@ -1,4 +1,4 @@
-# where-app-core-layout-styles
+# ionic-app-core-layout-styles
 
 Contains the default ionic styles.
 

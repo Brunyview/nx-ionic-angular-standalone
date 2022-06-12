@@ -1,6 +1,7 @@
-module.exports = {
-  displayName: 'ionic-app-shared-layout-tabs',
-
+/* eslint-disable */
+export default {
+  displayName: 'ionic-app-tab3-feature-tab3',
+  preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
     'ts-jest': {
@@ -8,7 +9,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../../../coverage/libs/ionic-app/core/layout-tabs',
+  coverageDirectory: '../../../../coverage/libs/ionic-app/tab3/feature-tab3',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },
@@ -18,5 +19,4 @@ module.exports = {
     'jest-preset-angular/build/serializers/ng-snapshot',
     'jest-preset-angular/build/serializers/html-comment',
   ],
-  preset: '../../../../jest.preset.ts',
 };

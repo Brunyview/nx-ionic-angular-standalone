@@ -1,7 +1,7 @@
-# ionic-app-core-feature-tabs
+# ionic-app-shared-layout-tabs
 
-This library was generated with [Nx](https://nx.dev).
+Defines the tab layout and routing for the application.
 
 ## Running unit tests
 
-Run `nx test ionic-app-core-feature-tabs` to execute the unit tests.
+Run `nx test ionic-app-shared-layout-tabs` to execute the unit tests.

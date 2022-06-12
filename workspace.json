@@ -481,6 +481,84 @@
         }
       },
       "tags": []
+    },
+    "ionic-app-tab1-feature-tab1": {
+      "projectType": "library",
+      "root": "libs/ionic-app/tab1/feature-tab1",
+      "sourceRoot": "libs/ionic-app/tab1/feature-tab1/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/ionic-app/tab1/feature-tab1"],
+          "options": {
+            "jestConfig": "libs/ionic-app/tab1/feature-tab1/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/tab1/feature-tab1/**/*.ts",
+              "libs/ionic-app/tab1/feature-tab1/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "ionic-app-tab2-feature-tab2": {
+      "projectType": "library",
+      "root": "libs/ionic-app/tab2/feature-tab2",
+      "sourceRoot": "libs/ionic-app/tab2/feature-tab2/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/ionic-app/tab2/feature-tab2"],
+          "options": {
+            "jestConfig": "libs/ionic-app/tab2/feature-tab2/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/tab2/feature-tab2/**/*.ts",
+              "libs/ionic-app/tab2/feature-tab2/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "ionic-app-tab3-feature-tab3": {
+      "projectType": "library",
+      "root": "libs/ionic-app/tab3/feature-tab3",
+      "sourceRoot": "libs/ionic-app/tab3/feature-tab3/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/ionic-app/tab3/feature-tab3"],
+          "options": {
+            "jestConfig": "libs/ionic-app/tab3/feature-tab3/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/tab3/feature-tab3/**/*.ts",
+              "libs/ionic-app/tab3/feature-tab3/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
     }
   }
 }

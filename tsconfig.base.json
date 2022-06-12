@@ -44,6 +44,15 @@
       ],
       "@my-org/ionic-app/shared/asset-images": [
         "libs/ionic-app/shared/asset-images/src/index.ts"
+      ],
+      "@my-org/ionic-app/tab1/feature-tab1": [
+        "libs/ionic-app/tab1/feature-tab1/src/index.ts"
+      ],
+      "@my-org/ionic-app/tab2/feature-tab2": [
+        "libs/ionic-app/tab2/feature-tab2/src/index.ts"
+      ],
+      "@my-org/ionic-app/tab3/feature-tab3": [
+        "libs/ionic-app/tab3/feature-tab3/src/index.ts"
       ]
     }
   },

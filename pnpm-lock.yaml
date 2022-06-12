@@ -17,6 +17,8 @@ specifiers:
   '@angular/platform-browser-dynamic': ~14.0.0
   '@angular/router': ~14.0.0
   '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e
+  '@ngx-translate/core': ^14.0.0
+  '@ngx-translate/http-loader': ^7.0.0
   '@nrwl/angular': ^14.2.4
   '@nrwl/cli': 14.2.4
   '@nrwl/cypress': 14.2.4
@@ -55,6 +57,8 @@ dependencies:
   '@angular/platform-browser-dynamic': 14.0.1_i2cgdbyvslva3mfxkh5cwsjnqe
   '@angular/router': 14.0.1_lj4a4hweyf2f6k4lhaa47j7obu
   '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e_vrm3tszi2qkdq6fc6bqi7b5tyy
+  '@ngx-translate/core': 14.0.0_sc2cxsu4vfcn33t2tbzpvm4ohe
+  '@ngx-translate/http-loader': 7.0.0_cs4sk53xonmx5qxbwcnqalgtmm
   '@nrwl/angular': 14.2.4_sprf5z2hrpjoixazuswat3t5uu
   '@nxtend/capacitor': 13.0.0_cz22liht7a6corli7x5ez2ervq
   ionicons: 6.0.2
@@ -3191,6 +3195,30 @@ packages:
       typescript: 4.7.3
       webpack: 5.72.1_esbuild@0.14.38
     dev: true
+
+  /@ngx-translate/core/14.0.0_sc2cxsu4vfcn33t2tbzpvm4ohe:
+    resolution: {integrity: sha512-UevdwNCXMRCdJv//0kC8h2eSfmi02r29xeE8E9gJ1Al4D4jEJ7eiLPdjslTMc21oJNGguqqWeEVjf64SFtvw2w==}
+    peerDependencies:
+      '@angular/core': '>=13.0.0'
+      rxjs: ^6.5.3 || ^7.4.0
+    dependencies:
+      '@angular/core': 14.0.1_rxjs@7.5.5+zone.js@0.11.5
+      rxjs: 7.5.5
+      tslib: 2.4.0
+    dev: false
+
+  /@ngx-translate/http-loader/7.0.0_cs4sk53xonmx5qxbwcnqalgtmm:
+    resolution: {integrity: sha512-j+NpXXlcGVdyUNyY/qsJrqqeAdJdizCd+GKh3usXExSqy1aE9866jlAIL+xrfDU4w+LiMoma5pgE4emvFebZmA==}
+    peerDependencies:
+      '@angular/common': '>=13.0.0'
+      '@ngx-translate/core': '>=14.0.0'
+      rxjs: ^6.5.3 || ^7.4.0
+    dependencies:
+      '@angular/common': 14.0.1_sc2cxsu4vfcn33t2tbzpvm4ohe
+      '@ngx-translate/core': 14.0.0_sc2cxsu4vfcn33t2tbzpvm4ohe
+      rxjs: 7.5.5
+      tslib: 2.4.0
+    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}

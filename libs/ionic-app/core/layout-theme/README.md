@@ -1,3 +1,3 @@
-# where-app-core-layout-theme
+# ionic-app-core-layout-theme
 
 ionic theme variables

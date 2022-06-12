@@ -18,7 +18,7 @@ bootstrapApplication(AppComponent, {
         {
           path: '',
           loadChildren: () =>
-            import('./app/tabs/tabs.routing').then((m) => m.routes),
+            import('@my-org/ionic-app/core/feature-tabs').then((m) => m.routes),
         },
       ]),
       HttpClientModule

@@ -1,1 +1,2 @@
-export * from './lib/ionic-app-core-feature-tabs.module';
+export * from './lib/tabs/tabs.page';
+export * from './lib/tabs/tabs.routing';

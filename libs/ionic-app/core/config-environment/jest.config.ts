@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'where-app/core/config-environment',
+  displayName: 'ionic-app/core/config-environment',
 
   globals: {
     'ts-jest': {
@@ -17,6 +17,7 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../coverage/libs/where-app/core/config-environment',
+  coverageDirectory:
+    '../../../../coverage/libs/ionic-app/core/config-environment',
   preset: '../../../../jest.preset.ts',
 };
