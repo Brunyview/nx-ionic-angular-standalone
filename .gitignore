@@ -1,7 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 
-pnpm-lock.ymal
+pnpm-lock.yaml
+package-lock.yaml
 
 # compiled output
 /dist
