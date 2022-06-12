@@ -5,5 +5,8 @@
         "noreferrer",
         "nrwl",
         "nxtend"
+    ],
+    "i18n-ally.localesPaths": [
+        "libs/ionic-app/core/asset-i18n/src/i18n"
     ]
 }
