@@ -14,7 +14,38 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-org/ionic-app/core/asset-i18n": [
+        "libs/ionic-app/core/asset-i18n/src/index.ts"
+      ],
+      "@my-org/ionic-app/core/asset-icon": [
+        "libs/ionic-app/core/asset-icon/src/index.ts"
+      ],
+      "@my-org/ionic-app/core/config-environment": [
+        "libs/ionic-app/core/config-environment/src/index.ts"
+      ],
+      "@my-org/ionic-app/core/feature-shell": [
+        "libs/ionic-app/core/feature-shell/src/index.ts"
+      ],
+      "@my-org/ionic-app/core/feature-tabs": [
+        "libs/ionic-app/core/feature-tabs/src/index.ts"
+      ],
+      "@my-org/ionic-app/core/layout-styles": [
+        "libs/ionic-app/core/layout-src/app/styles/src/index.ts"
+      ],
+      "@my-org/ionic-app/core/layout-theme": [
+        "libs/ionic-app/core/layout-theme/src/index.ts"
+      ],
+      "@my-org/ionic-app/shared/asset-fonts": [
+        "libs/ionic-app/shared/asset-fonts/src/index.ts"
+      ],
+      "@my-org/ionic-app/shared/asset-icons": [
+        "libs/ionic-app/shared/asset-icons/src/index.ts"
+      ],
+      "@my-org/ionic-app/shared/asset-images": [
+        "libs/ionic-app/shared/asset-images/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
