@@ -13,7 +13,7 @@ import { IonicModule } from '@ionic/angular';
     </ion-header>
     <ion-content [fullscreen]="true">
       <ion-header collapse="condense">
-        <ion-toolbar> <ion-title size="large">Tab 2</ion-title>xs </ion-toolbar>
+        <ion-toolbar> <ion-title size="large">Tab 2</ion-title></ion-toolbar>
       </ion-header>
     </ion-content> `,
   imports: [IonicModule, CommonModule, FormsModule],
