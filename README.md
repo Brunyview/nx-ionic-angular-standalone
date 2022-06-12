@@ -1,4 +1,4 @@
-# Nx ionic angular app using standalone components, pipes and directives
+# Nx ionic angular app using standalone components, directives and pipes !
 
 Angular CDP? @ladyLeet !
 
