@@ -559,6 +559,32 @@
         }
       },
       "tags": []
+    },
+    "shared-ui-explore-container": {
+      "projectType": "library",
+      "root": "libs/shared/ui-explore-container",
+      "sourceRoot": "libs/shared/ui-explore-container/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/shared/ui-explore-container"],
+          "options": {
+            "jestConfig": "libs/shared/ui-explore-container/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/shared/ui-explore-container/**/*.ts",
+              "libs/shared/ui-explore-container/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
     }
   }
 }

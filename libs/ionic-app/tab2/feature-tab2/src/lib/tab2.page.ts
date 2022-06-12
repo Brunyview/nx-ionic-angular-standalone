@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
+import { ExploreContainerComponent } from '@my-org/shared/ui-explore-container';
 
 @Component({
   standalone: true,
@@ -15,7 +16,8 @@ import { IonicModule } from '@ionic/angular';
       <ion-header collapse="condense">
         <ion-toolbar> <ion-title size="large">Tab 2</ion-title></ion-toolbar>
       </ion-header>
+      <my-org-explore-container name="Tab 2 page"></my-org-explore-container>
     </ion-content> `,
-  imports: [IonicModule, CommonModule, FormsModule],
+  imports: [IonicModule, CommonModule, FormsModule, ExploreContainerComponent],
 })
 export class Tab2Page {}
