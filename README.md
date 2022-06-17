@@ -1,9 +1,6 @@
 # Nx ionic angular app using standalone components, directives and pipes !
 
-Angular CDP? @ladyLeet !
-
-pnx g lib ionic-app/core/asset-icon
-pnx g lib ionic-app/core/asset-i18n
-pnx g lib ionic-app/core/asset-fonts
-
-
+TODO: implicit dependencies, tags etc.
+TODO: move tabs out of core
+TODO: implement shared component store for tabs via routes to prove reusing a store between shared components
+TODO: implement top level route component stores such as language, theme etc.
