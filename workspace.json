@@ -482,6 +482,170 @@
       },
       "tags": []
     },
+    "ionic-app-shared-product-data-access-product": {
+      "projectType": "library",
+      "root": "libs/ionic-app/shared/product/data-access-product",
+      "sourceRoot": "libs/ionic-app/shared/product/data-access-product/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/ionic-app/shared/product/data-access-product"
+          ],
+          "options": {
+            "jestConfig": "libs/ionic-app/shared/product/data-access-product/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/shared/product/data-access-product/**/*.ts",
+              "libs/ionic-app/shared/product/data-access-product/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "ionic-app-shared-product-feature-product-details": {
+      "projectType": "library",
+      "root": "libs/ionic-app/shared/product/feature-product-details",
+      "sourceRoot": "libs/ionic-app/shared/product/feature-product-details/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/ionic-app/shared/product/feature-product-details"
+          ],
+          "options": {
+            "jestConfig": "libs/ionic-app/shared/product/feature-product-details/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/shared/product/feature-product-details/**/*.ts",
+              "libs/ionic-app/shared/product/feature-product-details/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "ionic-app-shared-product-feature-product-list": {
+      "projectType": "library",
+      "root": "libs/ionic-app/shared/product/feature-product-list",
+      "sourceRoot": "libs/ionic-app/shared/product/feature-product-list/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/ionic-app/shared/product/feature-product-list"
+          ],
+          "options": {
+            "jestConfig": "libs/ionic-app/shared/product/feature-product-list/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/shared/product/feature-product-list/**/*.ts",
+              "libs/ionic-app/shared/product/feature-product-list/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "ionic-app-shared-product-store-product": {
+      "projectType": "library",
+      "root": "libs/ionic-app/shared/product/store-product",
+      "sourceRoot": "libs/ionic-app/shared/product/store-product/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/ionic-app/shared/product/store-product"],
+          "options": {
+            "jestConfig": "libs/ionic-app/shared/product/store-product/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/shared/product/store-product/**/*.ts",
+              "libs/ionic-app/shared/product/store-product/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "ionic-app-shared-product-store-query-result": {
+      "projectType": "library",
+      "root": "libs/ionic-app/shared/product/store-query-result",
+      "sourceRoot": "libs/ionic-app/shared/product/store-query-result/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/ionic-app/shared/product/store-query-result"
+          ],
+          "options": {
+            "jestConfig": "libs/ionic-app/shared/product/store-query-result/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/shared/product/store-query-result/**/*.ts",
+              "libs/ionic-app/shared/product/store-query-result/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "ionic-app-shared-product-util-interfaces": {
+      "projectType": "library",
+      "root": "libs/ionic-app/shared/product/util-interfaces",
+      "sourceRoot": "libs/ionic-app/shared/product/util-interfaces/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/ionic-app/shared/product/util-interfaces"],
+          "options": {
+            "jestConfig": "libs/ionic-app/shared/product/util-interfaces/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/shared/product/util-interfaces/**/*.ts",
+              "libs/ionic-app/shared/product/util-interfaces/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
     "ionic-app-tab1-feature-tab1": {
       "projectType": "library",
       "root": "libs/ionic-app/tab1/feature-tab1",
@@ -580,6 +744,32 @@
             "lintFilePatterns": [
               "libs/shared/ui-explore-container/**/*.ts",
               "libs/shared/ui-explore-container/**/*.html"
+            ]
+          }
+        }
+      },
+      "tags": []
+    },
+    "ionic-app-shared-product-ui-product-tile": {
+      "projectType": "library",
+      "root": "libs/ionic-app/shared/product/ui-product-tile",
+      "sourceRoot": "libs/ionic-app/shared/product/ui-product-tile/src",
+      "prefix": "my-org",
+      "targets": {
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/ionic-app/shared/product/ui-product-tile"],
+          "options": {
+            "jestConfig": "libs/ionic-app/shared/product/ui-product-tile/jest.config.ts",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ionic-app/shared/product/ui-product-tile/**/*.ts",
+              "libs/ionic-app/shared/product/ui-product-tile/**/*.html"
             ]
           }
         }

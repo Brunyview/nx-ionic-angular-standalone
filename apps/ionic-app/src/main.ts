@@ -5,6 +5,8 @@ import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 import { AppShellComponent } from '@my-org/ionic-app-core-feature-app-shell';
 import { environment } from '@my-org/ionic-app/core/config-environment';
+import { ProductService } from '@my-org/ionic-app/shared/product/data-access-product';
+import { ProductStore } from '@my-org/ionic-app/shared/product/store-product';
 
 if (environment.production) {
   enableProdMode();
@@ -12,11 +14,17 @@ if (environment.production) {
 
 bootstrapApplication(AppShellComponent, {
   providers: [
+    // {
+    //   provide: HTTP_INTERCEPTORS,
+    //   useClass: ApiInterceptor,
+    //   multi: true,
+    // },
     importProvidersFrom(
       IonicModule.forRoot(),
       RouterModule.forRoot([
         {
           path: '',
+          providers: [ProductStore, ProductService],
           loadChildren: () =>
             import('@my-org/ionic-app/core/feature-tabs').then((m) => m.routes),
         },

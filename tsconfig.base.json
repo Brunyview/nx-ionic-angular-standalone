@@ -48,6 +48,24 @@
       "@my-org/ionic-app/shared/asset-images": [
         "libs/ionic-app/shared/asset-images/src/index.ts"
       ],
+      "@my-org/ionic-app/shared/product/data-access-product": [
+        "libs/ionic-app/shared/product/data-access-product/src/index.ts"
+      ],
+      "@my-org/ionic-app/shared/product/feature-product-details": [
+        "libs/ionic-app/shared/product/feature-product-details/src/index.ts"
+      ],
+      "@my-org/ionic-app/shared/product/feature-product-list": [
+        "libs/ionic-app/shared/product/feature-product-list/src/index.ts"
+      ],
+      "@my-org/ionic-app/shared/product/store-product": [
+        "libs/ionic-app/shared/product/store-product/src/index.ts"
+      ],
+      "@my-org/ionic-app/shared/product/store-query-result": [
+        "libs/ionic-app/shared/product/store-query-result/src/index.ts"
+      ],
+      "@my-org/ionic-app/shared/product/util-interfaces": [
+        "libs/ionic-app/shared/product/util-interfaces/src/index.ts"
+      ],
       "@my-org/ionic-app/tab1/feature-tab1": [
         "libs/ionic-app/tab1/feature-tab1/src/index.ts"
       ],
@@ -59,6 +77,9 @@
       ],
       "@my-org/shared/ui-explore-container": [
         "libs/shared/ui-explore-container/src/index.ts"
+      ],
+      "@my-org/ionic-app/shared/product/ui-product-tile": [
+        "libs/ionic-app/shared/product/ui-product-tile/src/index.ts"
       ]
     }
   },

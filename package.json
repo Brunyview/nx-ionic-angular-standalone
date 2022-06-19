@@ -11,6 +11,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~14.0.0",
+    "@angular/cdk": "^14.0.2",
     "@angular/common": "~14.0.0",
     "@angular/compiler": "~14.0.0",
     "@angular/core": "~14.0.0",
@@ -19,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~14.0.0",
     "@angular/router": "~14.0.0",
     "@ionic/angular": "6.1.7-dev.11654279011.1b971e3e",
+    "@ngrx/component-store": "^13.2.0",
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
     "@nrwl/angular": "^14.2.4",
