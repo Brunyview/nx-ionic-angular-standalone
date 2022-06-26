@@ -6,10 +6,18 @@ import {
   logger,
   names,
   readProjectConfiguration,
-  Tree
+  Tree,
 } from '@nrwl/devkit';
+import { stringUtils } from '@nrwl/workspace';
 import { wrapAngularDevkitSchematic } from '@nrwl/devkit/ngcli-adapter';
 import { IonicUiSchema } from './schema';
+
+/**
+ * Remove a file from the Virtual Schematic Tree
+ */
+export function deleteFile(from: string) {
+  return (host: Tree) => host.delete(from);
+}
 
 export default async function (tree: Tree, schema: IonicUiSchema) {
   logger.info(`Generating ${names(schema.name).className}`);
@@ -42,6 +50,7 @@ export default async function (tree: Tree, schema: IonicUiSchema) {
   tree.delete(fileToDelete + '.ts');
   tree.delete(libRoot + '/src/index.ts');
 
+  // generate the files performing substitutions
   generateFiles(tree, joinPathFragments(__dirname, './files'), libRoot, {
     name: schema.name,
     className: names(schema.name).className,
