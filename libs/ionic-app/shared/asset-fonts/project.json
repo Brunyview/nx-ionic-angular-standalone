@@ -1,0 +1,22 @@
+{
+  "sourceRoot": "libs/ionic-app/shared/asset-fonts/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/ionic-app/shared/asset-fonts/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ionic-app/shared/asset-fonts"],
+      "options": {
+        "jestConfig": "libs/ionic-app/shared/asset-fonts/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
