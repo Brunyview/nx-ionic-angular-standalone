@@ -124,85 +124,45 @@
       }
     },
     "cap": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "--help"
-      }
-    },
-    "add": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "add",
-        "packageInstall": true
-      },
+      "executor": "@nrwl/workspace:run-commands",
       "configurations": {
-        "ios": {
-          "cmd": "add ios"
+        "add-ios": 
+        {
+          "command": "npx cap add ios",
+          "cwd": "apps/ionic-app"
         },
-        "android": {
-          "cmd": "add android"
+        "add-android": 
+        {
+          "command": "npx cap add android",
+          "cwd": "apps/ionic-app"
+        },
+        "any": {
+          "command": "npx cap {args.command}",
+          "cwd": "apps/ionic-app"
+        },
+        "sync": {
+          "commands": ["nx build ionic-app", "npx cap sync"],
+          "parallel": false,
+          "cwd": "apps/ionic-app"
+        },
+        "open-ios": {
+          "command": "npx cap open ios",
+          "cwd": "apps/ionic-app"
+        },
+        "open-android": {
+          "command": "npx cap open android",
+          "cwd": "apps/ionic-app"
+        },
+        "run-ios": {
+          "command": "npx cap run ios",
+          "cwd": "apps/ionic-app"
+        },
+        "run-android": {
+          "command": "npx cap run android",
+          "cwd": "apps/ionic-app"
         }
-      }
-    },
-    "copy": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "copy",
-        "packageInstall": false
       },
-      "configurations": {
-        "ios": {
-          "cmd": "copy ios"
-        },
-        "android": {
-          "cmd": "copy android"
-        }
-      }
-    },
-    "open": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "open",
-        "packageInstall": false
-      },
-      "configurations": {
-        "ios": {
-          "cmd": "open ios"
-        },
-        "android": {
-          "cmd": "open android"
-        }
-      }
-    },
-    "sync": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "sync",
-        "packageInstall": true
-      },
-      "configurations": {
-        "ios": {
-          "cmd": "sync ios"
-        },
-        "android": {
-          "cmd": "sync android"
-        }
-      }
-    },
-    "update": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "update",
-        "packageInstall": true
-      },
-      "configurations": {
-        "ios": {
-          "cmd": "update ios"
-        },
-        "android": {
-          "cmd": "update android"
-        }
-      }
+      "defaultConfiguration": "any"
     }
   },
   "tags": ["scope:ionic-app", "type:app"],

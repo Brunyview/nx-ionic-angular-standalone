@@ -34,7 +34,7 @@ export default async function (tree: Tree, schema: IonicUiSchema) {
     buildable: true,
     standaloneConfig: true,
     tags: 'scope:' + schema.scope + ',type:ui',
-    prefix: "where-app",
+    prefix: "ionic-app",
     strict: true,
   });
 
