@@ -18,6 +18,9 @@
       "@my-org/ionic-app-core-feature-app-shell": [
         "libs/ionic-app/core/feature-app-shell/src/index.ts"
       ],
+      "@my-org/ionic-app-tabs-feature-tabs": [
+        "libs/ionic-app/tabs/feature-tabs/src/index.ts"
+      ],
       "@my-org/ionic-app/core/asset-i18n": [
         "libs/ionic-app/core/asset-i18n/src/index.ts"
       ],
@@ -29,9 +32,6 @@
       ],
       "@my-org/ionic-app/core/feature-shell": [
         "libs/ionic-app/core/feature-shell/src/index.ts"
-      ],
-      "@my-org/ionic-app/core/feature-tabs": [
-        "libs/ionic-app/core/feature-tabs/src/index.ts"
       ],
       "@my-org/ionic-app/core/layout-styles": [
         "libs/ionic-app/core/layout-src/app/styles/src/index.ts"

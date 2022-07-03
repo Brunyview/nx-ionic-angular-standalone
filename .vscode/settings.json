@@ -1,4 +1,6 @@
 {
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+
     "cSpell.words": [
         "buildable",
         "devkit",
