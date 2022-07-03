@@ -1,7 +1,6 @@
-# Nx ionic angular app using standalone components, directives and pipes !
+# Nx ionic angular 
 
-> TODO: implicit dependencies, tags etc.
+The tabs starter app using standalone components using an ionic dev build
 
-> TODO: implement shared component store for tabs via routes to prove reusing a store between shared components
+"@ionic/angular": "6.1.7-dev.11654279011.1b971e3e",
 
-> TODO: implement top level route component stores such as language, theme etc.
