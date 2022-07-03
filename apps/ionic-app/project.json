@@ -211,6 +211,8 @@
     "ionic-app-core-layout-styles",
     "ionic-app-core-asset-icon",
     "ionic-app-core-asset-i18n",
-    "ionic-app-shared-asset-fonts"
+    "ionic-app-shared-asset-fonts",
+    "ionic-app-shared-asset-icons",
+    "ionic-app-shared-asset-images"
   ]
 }

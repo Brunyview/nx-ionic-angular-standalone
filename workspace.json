@@ -3,7 +3,6 @@
   "version": 2,
   "projects": {
     "ionic-app": "apps/ionic-app",
-    "ionic-app-core-asset-fonts": "libs/ionic-app/core/asset-fonts",
     "ionic-app-core-asset-i18n": "libs/ionic-app/core/asset-i18n",
     "ionic-app-core-asset-icon": "libs/ionic-app/core/asset-icon",
     "ionic-app-core-config-environment": "libs/ionic-app/core/config-environment",
