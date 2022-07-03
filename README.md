@@ -6,10 +6,6 @@ The Ionic tabs starter using standalone components using an ionic dev build
 
 ## TODO
 
-- add capacitor (ios/android)
-
-
-
 - add storybook
 - add unit tests
 - add e2e tests
