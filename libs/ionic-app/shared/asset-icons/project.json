@@ -1,22 +1,4 @@
 {
   "sourceRoot": "libs/ionic-app/shared/asset-icons/src",
-  "projectType": "library",
-  "targets": {
-    "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/ionic-app/shared/asset-icons/**/*.ts"]
-      }
-    },
-    "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/ionic-app/shared/asset-icons"],
-      "options": {
-        "jestConfig": "libs/ionic-app/shared/asset-icons/jest.config.ts",
-        "passWithNoTests": true
-      }
-    }
-  },
-  "tags": []
+  "projectType": "library"
 }

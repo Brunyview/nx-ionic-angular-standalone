@@ -1,22 +1,4 @@
 {
   "sourceRoot": "libs/ionic-app/core/asset-i18n/src",
-  "projectType": "library",
-  "targets": {
-    "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/ionic-app/core/asset-i18n/**/*.ts"]
-      }
-    },
-    "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/ionic-app/core/asset-i18n"],
-      "options": {
-        "jestConfig": "libs/ionic-app/core/asset-i18n/jest.config.ts",
-        "passWithNoTests": true
-      }
-    }
-  },
-  "tags": []
+  "projectType": "library"
 }
