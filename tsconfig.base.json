@@ -10,20 +10,11 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-org/ionic-app/core/feature-app-shell": [
-        "libs/ionic-app/core/feature-app-shell/src/index.ts"
-      ],
-      "@my-org/ionic-app/tabs/feature-tabs": [
-        "libs/ionic-app/tabs/feature-tabs/src/index.ts"
-      ],
       "@my-org/ionic-app/core/asset-i18n": [
         "libs/ionic-app/core/asset-i18n/src/index.ts"
       ],
@@ -32,6 +23,9 @@
       ],
       "@my-org/ionic-app/core/config-environment": [
         "libs/ionic-app/core/config-environment/src/index.ts"
+      ],
+      "@my-org/ionic-app/core/feature-app-shell": [
+        "libs/ionic-app/core/feature-app-shell/src/index.ts"
       ],
       "@my-org/ionic-app/core/feature-shell": [
         "libs/ionic-app/core/feature-shell/src/index.ts"
@@ -66,6 +60,9 @@
       "@my-org/ionic-app/shared/product/store-query-result": [
         "libs/ionic-app/shared/product/store-query-result/src/index.ts"
       ],
+      "@my-org/ionic-app/shared/product/ui-product-tile": [
+        "libs/ionic-app/shared/product/ui-product-tile/src/index.ts"
+      ],
       "@my-org/ionic-app/shared/product/util-interfaces": [
         "libs/ionic-app/shared/product/util-interfaces/src/index.ts"
       ],
@@ -78,16 +75,13 @@
       "@my-org/ionic-app/tab3/feature-tab3": [
         "libs/ionic-app/tab3/feature-tab3/src/index.ts"
       ],
+      "@my-org/ionic-app/tabs/feature-tabs": [
+        "libs/ionic-app/tabs/feature-tabs/src/index.ts"
+      ],
       "@my-org/shared/ui-explore-container": [
         "libs/shared/ui-explore-container/src/index.ts"
-      ],
-      "@my-org/ionic-app/shared/product/ui-product-tile": [
-        "libs/ionic-app/shared/product/ui-product-tile/src/index.ts"
       ]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }

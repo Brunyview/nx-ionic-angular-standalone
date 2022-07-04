@@ -126,13 +126,11 @@
     "cap": {
       "executor": "@nrwl/workspace:run-commands",
       "configurations": {
-        "add-ios": 
-        {
+        "add-ios": {
           "command": "npx cap add ios",
           "cwd": "apps/ionic-app"
         },
-        "add-android": 
-        {
+        "add-android": {
           "command": "npx cap add android",
           "cwd": "apps/ionic-app"
         },

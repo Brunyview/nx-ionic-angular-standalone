@@ -6,16 +6,15 @@
     "ionic-app-core-asset-i18n": "libs/ionic-app/core/asset-i18n",
     "ionic-app-core-asset-icon": "libs/ionic-app/core/asset-icon",
     "ionic-app-core-config-environment": "libs/ionic-app/core/config-environment",
-    "ionic-app/core/feature-app-shell": "libs/ionic-app/core/feature-app-shell",
     "ionic-app-core-layout-styles": "libs/ionic-app/core/layout-styles",
     "ionic-app-core-layout-theme": "libs/ionic-app/core/layout-theme",
-    "ionic-app-e2e": "apps/ionic-app-e2e",
     "ionic-app-shared-asset-fonts": "libs/ionic-app/shared/asset-fonts",
     "ionic-app-shared-asset-icons": "libs/ionic-app/shared/asset-icons",
     "ionic-app-shared-asset-images": "libs/ionic-app/shared/asset-images",
     "ionic-app-tab1-feature-tab1": "libs/ionic-app/tab1/feature-tab1",
     "ionic-app-tab2-feature-tab2": "libs/ionic-app/tab2/feature-tab2",
     "ionic-app-tab3-feature-tab3": "libs/ionic-app/tab3/feature-tab3",
+    "ionic-app/core/feature-app-shell": "libs/ionic-app/core/feature-app-shell",
     "ionic-app/tabs/feature-tabs": "libs/ionic-app/tabs/feature-tabs",
     "shared-ui-explore-container": "libs/shared/ui-explore-container"
   }

@@ -4,6 +4,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 import { environment } from '@my-org/ionic-app/core/config-environment';
+import { AppShellComponent } from '@my-org/ionic-app/core/feature-app-shell';
 import { ProductService } from '@my-org/ionic-app/shared/product/data-access-product';
 import { ProductStore } from '@my-org/ionic-app/shared/product/store-product';
 

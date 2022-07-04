@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('ionic-app', () => {
+describe('where-app', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
@@ -8,6 +8,6 @@ describe('ionic-app', () => {
     cy.login('my-email@something.com', 'myPassword');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome ionic-app');
+    getGreeting().contains('Welcome where-app');
   });
 });
