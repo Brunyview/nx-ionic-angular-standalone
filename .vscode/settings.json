@@ -5,10 +5,12 @@
         "devkit",
         "fullscreen",
         "ionicons",
+        "joshuamorony",
         "noopener",
         "noreferrer",
         "nrwl",
         "nxtend",
+        "pnpm",
         "transloco"
     ],
     "i18n-ally.localesPaths": [
