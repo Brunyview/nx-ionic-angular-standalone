@@ -1,0 +1,178 @@
+{
+  "projectType": "application",
+  "sourceRoot": "apps/ionic-app/src",
+  "prefix": "my-org",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/ionic-app",
+        "index": "apps/ionic-app/src/index.html",
+        "main": "apps/ionic-app/src/main.ts",
+        "polyfills": "apps/ionic-app/src/polyfills.ts",
+        "tsConfig": "apps/ionic-app/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          {
+            "glob": "favicon.png",
+            "input": "libs/ionic-app/core/asset-icon/src/icon",
+            "output": "assets/icon"
+          },
+          {
+            "glob": "**/*.svg",
+            "input": "node_modules/ionicons/dist/ionicons/svg",
+            "output": "./svg"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/ionic-app/core/asset-i18n/src/i18n",
+            "output": "assets/i18n"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/ionic-app/shared/asset-fonts/src/fonts",
+            "output": "assets/fonts"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/ionic-app/shared/asset-images/src/images",
+            "output": "assets/images"
+          },
+          {
+            "glob": "**/*.svg",
+            "input": "libs/ionic-app/shared/asset-icons/src/icons",
+            "output": "./svg"
+          }
+        ],
+        "styles": [
+          "apps/ionic-app/src/global.scss",
+          "libs/ionic-app/core/layout-styles/src/index.scss",
+          "libs/ionic-app/shared/asset-fonts/src/index.scss",
+          "libs/ionic-app/core/layout-theme/src/index.scss"
+        ],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "600kb",
+              "maximumError": "2mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "40kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "libs/ionic-app/core/config-environment/src/lib/environment.ts",
+              "with": "libs/ionic-app/core/config-environment/src/lib/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "ionic-app:build:production",
+          "port": 4201
+        },
+        "development": {
+          "browserTarget": "ionic-app:build:development",
+          "port": 4201
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "ionic-app:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "apps/ionic-app/src/**/*.ts",
+          "apps/ionic-app/src/**/*.html"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/ionic-app"],
+      "options": {
+        "jestConfig": "apps/ionic-app/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "cap": {
+      "executor": "@nrwl/workspace:run-commands",
+      "configurations": {
+        "add-ios": 
+        {
+          "command": "npx cap add ios",
+          "cwd": "apps/ionic-app"
+        },
+        "add-android": 
+        {
+          "command": "npx cap add android",
+          "cwd": "apps/ionic-app"
+        },
+        "any": {
+          "command": "npx cap {args.command}",
+          "cwd": "apps/ionic-app"
+        },
+        "sync": {
+          "commands": ["nx build ionic-app", "npx cap sync"],
+          "parallel": false,
+          "cwd": "apps/ionic-app"
+        },
+        "open-ios": {
+          "command": "npx cap open ios",
+          "cwd": "apps/ionic-app"
+        },
+        "open-android": {
+          "command": "npx cap open android",
+          "cwd": "apps/ionic-app"
+        },
+        "run-ios": {
+          "command": "npx cap run ios",
+          "cwd": "apps/ionic-app"
+        },
+        "run-android": {
+          "command": "npx cap run android",
+          "cwd": "apps/ionic-app"
+        }
+      },
+      "defaultConfiguration": "any"
+    }
+  },
+  "tags": ["scope:ionic-app", "type:app"],
+  "implicitDependencies": [
+    "ionic-app-core-layout-theme",
+    "ionic-app-core-layout-styles",
+    "ionic-app-core-asset-icon",
+    "ionic-app-core-asset-i18n",
+    "ionic-app-shared-asset-fonts",
+    "ionic-app-shared-asset-icons",
+    "ionic-app-shared-asset-images"
+  ]
+}

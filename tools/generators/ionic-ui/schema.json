@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "cli": "nx",
+  "$id": "ionic-ui",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Library name",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      }
+    },
+    "org": {
+      "type": "string",
+      "description": "Organization name",
+      "$default": {
+        "$source": "argv",
+        "index": 1
+      }
+    },
+    "path": {
+      "type": "string",
+      "description": "Path to the library",
+      "$default": {
+        "$source": "argv",
+        "index": 2
+      }
+    }
+  },
+  "scope": {
+    "type": "string",
+    "description": "Scope name",
+    "$default": {
+      "$source": "argv",
+      "index": 3
+    }
+  },
+  "prefix": {
+    "type": "string",
+    "description": "component prefix",
+    "$default": {
+      "$source": "argv",
+      "index": 4
+    }
+  },
+  "selector": {
+    "type": "string",
+    "description": "component selector",
+    "$default": {
+      "$source": "argv",
+      "index": 4
+    }
+  },
+  "required": [
+    "name",
+    "selector",
+    "path",
+    "scope"
+  ]
+}
