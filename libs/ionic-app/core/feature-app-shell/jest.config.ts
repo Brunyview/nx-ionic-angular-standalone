@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'ionic-app-core-feature-app-shell',
+  displayName: 'ionic-app/core/feature-app-shell',
   preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
