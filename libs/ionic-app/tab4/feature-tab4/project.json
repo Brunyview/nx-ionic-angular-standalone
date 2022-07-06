@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/ionic-app/tab4/feature-tab4/src",
+  "prefix": "my-org",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ionic-app/tab4/feature-tab4"],
+      "options": {
+        "jestConfig": "libs/ionic-app/tab4/feature-tab4/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ionic-app/tab4/feature-tab4/**/*.ts",
+          "libs/ionic-app/tab4/feature-tab4/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["type:feature", "scope:ionic-app", "platform:web"]
+
+}

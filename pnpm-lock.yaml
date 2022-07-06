@@ -21,6 +21,7 @@ specifiers:
   '@capacitor/core': ^3.6.0
   '@capacitor/ios': ^3.6.0
   '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e
+  '@ngneat/transloco': ^4.1.0
   '@ngx-translate/core': ^14.0.0
   '@ngx-translate/http-loader': ^7.0.0
   '@nrwl/angular': 14.4.0
@@ -70,6 +71,7 @@ dependencies:
   '@capacitor/core': 3.6.0
   '@capacitor/ios': 3.6.0_@capacitor+core@3.6.0
   '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e_ljxu562ajyqberc5oty74ccwfe
+  '@ngneat/transloco': 4.1.0_dbi3ebsepejzlh4ipwfyshbq7u
   '@ngx-translate/core': 14.0.0_dbi3ebsepejzlh4ipwfyshbq7u
   '@ngx-translate/http-loader': 7.0.0_vrhsagwsdojh67e2nt4z4brbny
   '@nrwl/angular': 14.4.0_xh3vjel6g7b7qcinw3t75g5q7i
@@ -3996,6 +3998,29 @@ packages:
 
   /@leichtgewicht/ip-codec/2.0.4:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
+
+  /@ngneat/transloco-utils/3.0.2:
+    resolution: {integrity: sha512-NItuBldCJPfQ1FtDcbTQUGbOtfYjdoNC/IIV+M0jeUqzeKCZCYh5ajwTYhLXSXhMhG4nH4QNWCADOKwOAOVuRg==}
+    dependencies:
+      cosmiconfig: 7.0.1
+      tslib: 2.4.0
+    dev: false
+
+  /@ngneat/transloco/4.1.0_dbi3ebsepejzlh4ipwfyshbq7u:
+    resolution: {integrity: sha512-dBis8YaaLL5Cg/Uk+RTtzInD3A8ctKhOo9kbR+4SFHvtSSMM8dXyVwuFMjDGgLKdAn/U6WB6Cwp3LFCw0ftBgQ==}
+    peerDependencies:
+      '@angular/core': '>=13.0.0'
+      rxjs: '>=6.0.0'
+    dependencies:
+      '@angular/core': 14.0.4_rxjs@7.5.5+zone.js@0.11.6
+      '@ngneat/transloco-utils': 3.0.2
+      flat: 5.0.2
+      lodash.kebabcase: 4.1.1
+      ora: 5.4.1
+      replace-in-file: 6.3.5
+      rxjs: 7.5.5
+      tslib: 2.4.0
+    dev: false
 
   /@ngtools/webpack/14.0.4_oy5biwqbwf5iz4jksdxmgzzqzy:
     resolution: {integrity: sha512-83b/gB4Kna2FhIQj82RNZol+6gq+vLv6+4LUFOGSBb4Xha3RVQGJQpGwqEkXRFziwgTODrPWJAnOup5pzKv9wA==}
@@ -10248,6 +10273,10 @@ packages:
   /lodash.debounce/4.0.8:
     resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
 
+  /lodash.kebabcase/4.1.1:
+    resolution: {integrity: sha512-N8XRTIMMqqDgSy4VLKPnJ/+hpGZN+PHQiJnSenYqPaVV/NCqEogTnAdZLQiGKhxX+JCs8waWq2t1XHWKOmlY8g==}
+    dev: false
+
   /lodash.memoize/4.1.2:
     resolution: {integrity: sha512-t7j+NzmgnQzTAYXcsHYLgimltOV1MXHtlOWf6GjL9Kj8GK5FInw5JotxvbOs+IvV1/Dzo04/fCGfLVs7aXb4Ag==}
 
@@ -12657,6 +12686,16 @@ packages:
     hasBin: true
     dependencies:
       jsesc: 0.5.0
+
+  /replace-in-file/6.3.5:
+    resolution: {integrity: sha512-arB9d3ENdKva2fxRnSjwBEXfK1npgyci7ZZuwysgAp7ORjHSyxz6oqIjTEv8R0Ydl4Ll7uOAZXL4vbkhGIizCg==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.2
+      glob: 7.2.3
+      yargs: 17.5.1
+    dev: false
 
   /request-progress/3.0.0:
     resolution: {integrity: sha512-MnWzEHHaxHO2iWiQuHrUPBi/1WeBf5PkxQqNyNvLl9VAYSdXkP8tQ3pBSeCPD+yw0v0Aq1zosWLz0BdeXpWwZg==}

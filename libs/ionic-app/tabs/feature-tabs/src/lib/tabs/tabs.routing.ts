@@ -26,7 +26,11 @@ export const routes: Routes = [
         loadChildren: () =>
           import('@my-org/ionic-app/tab3/feature-tab3').then((m) => m.routes),
       },
-
+      {
+        path: 'tab4',
+        loadChildren: () =>
+          import('@my-org/ionic-app/tab4/feature-tab4').then((m) => m.routes),
+      },
       {
         path: '',
         redirectTo: '/tab1',

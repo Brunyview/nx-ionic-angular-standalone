@@ -60,6 +60,9 @@
       "@my-org/ionic-app/tab3/feature-tab3": [
         "libs/ionic-app/tab3/feature-tab3/src/index.ts"
       ],
+      "@my-org/ionic-app/tab4/feature-tab4": [
+        "libs/ionic-app/tab4/feature-tab4/src/index.ts"
+      ],
       "@my-org/shared/ui-explore-container": [
         "libs/shared/ui-explore-container/src/index.ts"
       ]

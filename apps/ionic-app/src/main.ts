@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 import { environment } from '@my-org/ionic-app/core/config-environment';
 import { AppShellComponent } from '@my-org/ionic-app/core/feature-app-shell';
+import { TranslocoModule } from '@ngneat/transloco';
 
 if (environment.production) {
   enableProdMode();
@@ -13,6 +14,7 @@ if (environment.production) {
 bootstrapApplication(AppShellComponent, {
   providers: [
     importProvidersFrom(
+      TranslocoModule,
       IonicModule.forRoot(),
       RouterModule.forRoot([
         {
