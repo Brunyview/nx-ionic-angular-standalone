@@ -33,6 +33,9 @@
       "@my-org/ionic-app/core/config-environment": [
         "libs/ionic-app/core/config-environment/src/index.ts"
       ],
+      "@my-org/ionic-app/core/config-transloco": [
+        "libs/ionic-app/core/config-transloco/src/index.ts"
+      ],
       "@my-org/ionic-app/core/feature-shell": [
         "libs/ionic-app/core/feature-shell/src/index.ts"
       ],

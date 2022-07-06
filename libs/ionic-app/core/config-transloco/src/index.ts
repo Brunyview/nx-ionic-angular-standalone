@@ -1,3 +1,2 @@
-//export * from './lib/transloco-config.module';
+export * from './lib/config-transloco.module';
 export * from './lib/transloco.loader';
-export * from './lib/languages.const'
