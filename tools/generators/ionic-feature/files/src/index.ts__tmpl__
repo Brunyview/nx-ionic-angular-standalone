@@ -1,0 +1,2 @@
+export * from './lib/<%= name %>/<%= name %>.page';
+export * from './lib/<%= name %>/<%= name %>.routing';

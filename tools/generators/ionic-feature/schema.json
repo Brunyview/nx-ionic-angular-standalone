@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "cli": "nx",
+  "$id": "ionic-feature",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Library name",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      }
+    },
+    "org": {
+      "type": "string",
+      "description": "Organization name"
+    },
+    "path": {
+      "type": "string",
+      "description": "Path to the library"
+    },
+    "scope": {
+      "type": "string",
+      "description": "Scope name"
+    },
+    "prefix": {
+      "type": "string",
+      "description": "component prefix"
+    },
+    "selector": {
+      "type": "string",
+      "description": "component selector"
+    },
+    "componentStoreName": {
+      "type": "string",
+      "description": "Class name of an existing component store to use within the feature"
+    },
+    "componentStoreImport": {
+      "type": "string",
+      "description": "The import path of the component store to use within the feature"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

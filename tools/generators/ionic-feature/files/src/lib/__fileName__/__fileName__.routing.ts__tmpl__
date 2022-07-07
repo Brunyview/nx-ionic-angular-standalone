@@ -1,0 +1,26 @@
+import { Route } from '@angular/router';
+
+export const routes: Route[] = [
+{
+    path: '',
+    loadComponent: () => import('./<%= name %>.page').then((m) => m.<%= className %>Page),
+//    loadChildren: () =>
+//      import('@brunyview/where-app/shared/product/feature-product-list').then(
+//        (m) => m.routes
+//      ),
+},
+//{
+//   path: 'products',
+//   loadComponent: () =>
+//     import('@brunyview/where-app/shared/product/feature-product-list').then(
+//      (m) => m.ProductListComponent
+//     ),
+// },
+//{
+//    path: 'products/:id',
+//    loadChildren: () =>
+//      import('@brunyview/where-app/shared/product/feature-product-details').then(
+//        (m) => m.routes
+//     ),
+// },
+]
