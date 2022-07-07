@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/ionic-app/core/config-transloco/src",
+  "prefix": "my-org",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ionic-app/core/config-transloco"],
+      "options": {
+        "jestConfig": "libs/ionic-app/core/config-transloco/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ionic-app/core/config-transloco/**/*.ts",
+          "libs/ionic-app/core/config-transloco/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

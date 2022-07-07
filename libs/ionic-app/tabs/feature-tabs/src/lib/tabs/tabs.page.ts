@@ -21,6 +21,10 @@ import { IonicModule } from '@ionic/angular';
           <ion-icon name="bookmarks-outline"></ion-icon>
           <ion-label>{{ 'tab3' }}</ion-label>
         </ion-tab-button>
+        <ion-tab-button tab="tab4">
+          <ion-icon name="settings-outline"></ion-icon>
+          <ion-label>{{ 'tab4' }}</ion-label>
+        </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
   `,

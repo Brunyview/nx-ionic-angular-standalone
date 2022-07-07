@@ -22,6 +22,7 @@
     "@capacitor/core": "^3.6.0",
     "@capacitor/ios": "^3.6.0",
     "@ionic/angular": "6.1.7-dev.11654279011.1b971e3e",
+    "@ngneat/transloco": "^4.1.0",
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
     "@nrwl/angular": "14.4.0",
@@ -69,4 +70,3 @@
     "typescript": "~4.7.2"
   }
 }
-
