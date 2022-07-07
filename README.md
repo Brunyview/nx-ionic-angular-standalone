@@ -1,8 +1,8 @@
 # Nx ionic angular
 
-The Ionic tabs starter using Nx and Angular 14 standalone components by using an ionic dev build
+The Ionic tabs starter using Nx and Angular 14 standalone components by using the proposed workaround involving the environmentInjector 
 
-"@ionic/angular": "6.1.7-dev.11654279011.1b971e3e",
+"6.1.14-dev.11657224247.185f8192",
 
 Ionics Sean Perkins suggested environmentInjector workaround is commented in tabs and app components for when a build is available.
 

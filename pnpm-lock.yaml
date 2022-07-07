@@ -20,7 +20,7 @@ specifiers:
   '@capacitor/cli': ^3.6.0
   '@capacitor/core': ^3.6.0
   '@capacitor/ios': ^3.6.0
-  '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e
+  '@ionic/angular': 6.1.14-dev.11657224247.185f8192
   '@ngneat/transloco': ^4.1.0
   '@ngx-translate/core': ^14.0.0
   '@ngx-translate/http-loader': ^7.0.0
@@ -70,7 +70,7 @@ dependencies:
   '@capacitor/android': 3.6.0_@capacitor+core@3.6.0
   '@capacitor/core': 3.6.0
   '@capacitor/ios': 3.6.0_@capacitor+core@3.6.0
-  '@ionic/angular': 6.1.7-dev.11654279011.1b971e3e_ljxu562ajyqberc5oty74ccwfe
+  '@ionic/angular': 6.1.14-dev.11657224247.185f8192_ljxu562ajyqberc5oty74ccwfe
   '@ngneat/transloco': 4.1.0_dbi3ebsepejzlh4ipwfyshbq7u
   '@ngx-translate/core': 14.0.0_dbi3ebsepejzlh4ipwfyshbq7u
   '@ngx-translate/http-loader': 7.0.0_vrhsagwsdojh67e2nt4z4brbny
@@ -3414,8 +3414,8 @@ packages:
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
 
-  /@ionic/angular/6.1.7-dev.11654279011.1b971e3e_ljxu562ajyqberc5oty74ccwfe:
-    resolution: {integrity: sha512-+Bz8r73/8eRM2IDXxVVYCkOaU0E5+9wvDk+jgjFcMeQW2ewFhSwpE00zd9aA6jrc2zU7b1fFbegNFsO8b51fTg==}
+  /@ionic/angular/6.1.14-dev.11657224247.185f8192_ljxu562ajyqberc5oty74ccwfe:
+    resolution: {integrity: sha512-A0GZPzi4D4BD9LcxKkZ4YcOMt2Agv9DRsjNhXS+wpW+BSZMJHaeFVzjO479H5avfOy8DxFBYgBpIRxnTE5NJ3A==}
     peerDependencies:
       '@angular/core': '>=12.0.0'
       '@angular/forms': '>=12.0.0'
@@ -3426,7 +3426,7 @@ packages:
       '@angular/core': 14.0.4_rxjs@7.5.5+zone.js@0.11.6
       '@angular/forms': 14.0.4_z554obbbjbaxl2adlugwuvyrpe
       '@angular/router': 14.0.4_z554obbbjbaxl2adlugwuvyrpe
-      '@ionic/core': 6.1.7-dev.11654279011.1b971e3e
+      '@ionic/core': 6.1.14-dev.11657224247.185f8192
       jsonc-parser: 3.0.0
       rxjs: 7.5.5
       tslib: 2.4.0
@@ -3444,8 +3444,8 @@ packages:
       - supports-color
     dev: true
 
-  /@ionic/core/6.1.7-dev.11654279011.1b971e3e:
-    resolution: {integrity: sha512-tLXi9Oyobo50WfPuu4qcDERYyb1s0LexfVWLaJXt1CU309oPOoJw2c0nhB+3Gpup3P7UGLuNBe2nIat+9t7tkA==}
+  /@ionic/core/6.1.14-dev.11657224247.185f8192:
+    resolution: {integrity: sha512-TQptLV9pZYSH9P1rNMPucroUTfTEOFJoWQsaBS92vEjVkmy8n49mOGhpQ8GE8FsAevm/LODL+ekGbpP4SzQJdw==}
     dependencies:
       '@stencil/core': 2.17.0
       ionicons: 6.0.2

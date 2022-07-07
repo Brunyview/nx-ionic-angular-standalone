@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, EnvironmentInjector } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
   standalone: true,
   selector: 'my-org-tab1',
   template: `
-    <ion-tabs>
+    <ion-tabs [environmentInjector]="environmentInjector">
       <ion-tab-bar slot="bottom">
         <ion-tab-button tab="tab1">
           <ion-icon name="home-outline"></ion-icon>
@@ -30,4 +30,6 @@ import { IonicModule } from '@ionic/angular';
   `,
   imports: [IonicModule, CommonModule, FormsModule],
 })
-export class TabsPage {}
+export class TabsPage {
+  constructor(public environmentInjector: EnvironmentInjector) {}
+}

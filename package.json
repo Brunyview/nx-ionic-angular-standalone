@@ -21,7 +21,7 @@
     "@capacitor/android": "^3.6.0",
     "@capacitor/core": "^3.6.0",
     "@capacitor/ios": "^3.6.0",
-    "@ionic/angular": "6.1.7-dev.11654279011.1b971e3e",
+    "@ionic/angular": "6.1.14-dev.11657224247.185f8192",
     "@ngneat/transloco": "^4.1.0",
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
