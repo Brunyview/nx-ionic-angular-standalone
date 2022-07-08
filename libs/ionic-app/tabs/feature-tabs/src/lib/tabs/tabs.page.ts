@@ -1,11 +1,9 @@
-import { CommonModule } from '@angular/common';
 import { Component, EnvironmentInjector } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 @Component({
   standalone: true,
-  selector: 'my-org-tab1',
+  selector: 'my-org-tabs',
   template: `
     <ion-tabs [environmentInjector]="environmentInjector">
       <ion-tab-bar slot="bottom">
@@ -28,7 +26,7 @@ import { IonicModule } from '@ionic/angular';
       </ion-tab-bar>
     </ion-tabs>
   `,
-  imports: [IonicModule, CommonModule, FormsModule],
+  imports: [IonicModule],
 })
 export class TabsPage {
   constructor(public environmentInjector: EnvironmentInjector) {}

@@ -12,6 +12,7 @@
         "nrwl",
         "nxtend",
         "pnpm",
+        "pricetags",
         "transloco"
     ],
     "i18n-ally.localesPaths": [

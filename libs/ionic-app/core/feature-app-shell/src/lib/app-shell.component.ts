@@ -1,5 +1,5 @@
 import { Component, EnvironmentInjector } from '@angular/core';
-import { RouteReuseStrategy, RouterModule } from '@angular/router';
+import { RouteReuseStrategy } from '@angular/router';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 @Component({
@@ -12,7 +12,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
       ></ion-router-outlet>
     </ion-app>
   `,
-  imports: [IonicModule, RouterModule],
+  imports: [IonicModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
 })
 export class AppShellComponent {
